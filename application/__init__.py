@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 # Load data
-path = "../heartData/heart_data.csv"
+path = "./heartData/heart_data.csv"
 df = pd.read_csv(path)
 
 #drop index, id columns                 
